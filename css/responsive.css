@@ -1,0 +1,319 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 20px;
+  padding: 0.8rem;
+}
+.box1:hover, .box10:hover, .box11:hover, .box12:hover, .box13:hover, .box14:hover, .box15:hover, .box16:hover,
+.box17:hover, .box18:hover, .box19:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover,
+.box8:hover, .box9:hover {
+  border: 1px solid #f48d21;
+  transform: scale(1.05);
+  box-shadow: 0 8.8rem 12.8rem rgba(0, 0, 0, 0.075);
+}
+.box1 {
+  grid-column: col-start / span 6;
+  grid-row: 1;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box2 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 1;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box3 {
+  grid-column: col-start / span 6;
+  grid-row: 2;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box4 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 2;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box5 {
+  grid-column: col-start / span 6;
+  grid-row: 3;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box6 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 3;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box7 {
+  grid-column: col-start / span 6;
+  grid-row: 4;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box8 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 4;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box9 {
+  grid-column: col-start / span 6;
+  grid-row: 5;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box10 {
+  grid-column: col-start 7 / span 6;
+  grid-row: 5;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box11 {
+  grid-column: col-start / span 6;
+  grid-row: 6;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box12 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 6;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box13 {
+  grid-column: col-start / span 12;
+  grid-row: 7;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box14 {
+  grid-column: col-start / span 6;
+  grid-row: 8;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box15 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 8;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box16 {
+  grid-column: col-start / span 6;
+  grid-row: 9;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box17 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 9;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box18 {
+  grid-column: col-start / span 6;
+  grid-row: 10;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+.box19 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 10;
+  background-color: #fff;
+  box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+@media screen and (min-width: 768px) {
+  .box1 {
+  grid-column: col-start / span 4;
+  grid-row: 1;
+}
+.box2 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 1;
+}
+.box3 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 1;
+}
+.box4 {
+  grid-column: col-start / span 4;
+  grid-row: 2;
+}
+.box5 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 2;
+}
+.box6 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 2;
+}
+.box7 {
+  grid-column: col-start / span 4;
+  grid-row: 3;
+}
+.box8 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 3;
+}
+.box9 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 3;
+}
+.box10 {
+  grid-column: col-start  / span 4;
+  grid-row: 4;
+}
+.box11 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 4;
+}
+.box12 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 4;
+}
+.box13 {
+  grid-column: col-start / span 12;
+  grid-row: 5;
+}
+.box14 {
+  grid-column: col-start / span 4;
+  grid-row: 6;
+}
+.box15 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 6;
+}
+.box16 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 6;
+}
+.box17 {
+  grid-column: col-start / span 4;
+  grid-row: 7;
+}
+.box18 {
+  grid-column: col-start 5/ span 4;
+  grid-row: 7;
+}
+.box19 {
+  grid-column: col-start 9/ span 4;
+  grid-row: 7;
+}
+}
+@media screen and (min-width: 1080px) {
+  .box1 {
+  grid-column: col-start / span 3;
+  grid-row: 1;
+}
+.box2 {
+  grid-column: col-start 4/ span 3;
+  grid-row: 1;
+}
+.box3 {
+  grid-column: col-start 7/ span 3;
+  grid-row: 1;
+}
+.box4 {
+  grid-column: col-start 10/ span 3;
+  grid-row: 1;
+}
+.box5 {
+  grid-column: col-start / span 3;
+  grid-row: 2;
+}
+.box6 {
+  grid-column: col-start 4/ span 3;
+  grid-row: 2;
+}
+.box7 {
+  grid-column: col-start 7/ span 3;
+  grid-row: 2;
+}
+.box8 {
+  grid-column: col-start 10/ span 3;
+  grid-row: 2;
+}
+.box9 {
+  grid-column: col-start / span 3;
+  grid-row: 3;
+}
+.box10 {
+  grid-column: col-start 4 / span 3;
+  grid-row: 3;
+}
+.box11 {
+  grid-column: col-start 7/ span 3;
+  grid-row: 3;
+}
+.box12 {
+  grid-column: col-start 10/ span 3;
+  grid-row: 3;
+}
+.box13 {
+  grid-column: col-start / span 12;
+  grid-row: 4;
+}
+.box14 {
+  grid-column: col-start / span 3;
+  grid-row: 5;
+}
+.box15 {
+  grid-column: col-start 4/ span 3;
+  grid-row: 5;
+}
+.box16 {
+  grid-column: col-start 7/ span 3;
+  grid-row: 5;
+}
+.box17 {
+  grid-column: col-start 10/ span 3;
+  grid-row: 5;
+}
+.box18 {
+  grid-column: col-start / span 6;
+  grid-row: 6;
+}
+.box19 {
+  grid-column: col-start 7/ span 6;
+  grid-row: 6;
+}
+}
+/*Image responsiveness*/
+@media screen and (min-width: 620px) {
+  img {
+    max-height: 315px;
+  }
+}
+/*******Responsive Header********/
+@media screen and (max-width: 768px) {
+  .logo-icon {
+    min-width: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo-name-resp {
+    font-size: 1.2rem;
+  }
+}

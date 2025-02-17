@@ -1,0 +1,201 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+  padding: 1rem 2rem ;
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+  .div4, .div3, .div2, .div1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+footer {
+  background-color: #e83e8c;
+  background-image: url(../image/broken2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flogo img {
+  width: 150px;
+}
+.flogo span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  vertical-align: text-top;
+}
+.h-footer {
+  color: #4caf50;
+  padding-bottom: 0.7rem;
+  font-weight: bold;
+}
+.f-main {
+  padding-bottom: 0.3rem;
+}
+.div4, .div3, .div2, .div1 {
+  min-width: 250px;
+}
+.f-copyright {
+  color: #333;
+  margin-bottom: 2.5rem;
+  padding: 0.6rem;
+}
+.pagination {
+  display: inline-block;
+  margin: 1rem auto 2.5rem auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pagination a {
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  float: left;
+  color: black;
+}
+a .active {
+  background-color: #4caf50;
+  color: white;
+}
+.pagination a:not(.active):hover {
+  background-color: #add;
+}
+.oooo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  gap: 4rem;
+  padding: 4.8rem 10%;
+  background-color: #fafae9;
+}
+.thead {
+  grid-column: col-start / span 2;
+  grid-row: 1;
+}
+.testimony1 {
+  grid-column: col-start / span 2;
+  grid-row: 2;
+}
+.testimony2 {
+  grid-column: col-start / span 2;
+  grid-row: 3;
+}
+.testimony3 {
+  grid-column: col-start / span 2;
+  grid-row: 4;
+}
+.testimony4 {
+  grid-column: col-start / span 2;
+  grid-row: 5;
+}
+@media screen and (min-width: 880px) {
+  .testimony1, .testimony3 {
+    grid-column: col-start / span 1;
+  }
+  .testimony2, .testimony4 {
+    grid-column: col-start 2/ span 1;
+  }
+  .testimony1, .testimony2 {
+    grid-row: 2;
+  }
+  .testimony3, .testimony4 {
+    grid-row: 3;
+  }
+}
+.testimony1, .testimony2,
+.testimony3, .testimony4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 0.8rem;
+  border: 1px solid #add;
+  background-color: #f8f8d8;
+}
+.tester {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.tester img {
+  object-fit: cover;
+  object-position: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+}
+.tester-name {
+  flex: 1;
+  padding: 0 0.6rem;
+}
+.tname {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.tpost em {
+  font-size: 0.9rem;
+  color: #333;
+}
+.tdetail {
+  padding: 0.8rem 1.2rem;
+  background-color: #008cba;
+  color: #fff;
+  cursor: pointer;
+  border-start-end-radius: 10px;
+  border-end-end-radius: 10px;
+  border-start-start-radius: 10px;
+  border-end-start-radius: 10px;
+}
+.tdetail:hover {
+  background-color: #005f73;
+  border: 1px solid #add;
+}
+.test p {
+  background-color: bisque;
+  color: #000;
+  border-radius: 20px;
+  margin: 0;
+  padding: 1.2rem;
+  font-style: oblique;
+}
+.test-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tess {
+  color: rgb(255, 156, 86);
+  font-weight: bold;
+}
+.hear {
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  color: #6d45ff;
+}
