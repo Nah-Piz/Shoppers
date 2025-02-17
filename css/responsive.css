@@ -11,7 +11,8 @@
   transform: scale(1.05);
   box-shadow: 0 8.8rem 12.8rem rgba(0, 0, 0, 0.075);
 }
-.box1 {
+@media screen and (max-width: 767px) {
+  .box1 {
   grid-column: col-start / span 6;
   grid-row: 1;
   background-color: #fff;
@@ -94,6 +95,7 @@
   background-color: #fff;
   box-shadow: 0 4.4rem 8.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
+}
 }
 .box13 {
   grid-column: col-start / span 12;
